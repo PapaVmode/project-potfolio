@@ -1,0 +1,17 @@
+.slogan {
+  height: 30vh;
+  background-color: rgb(242, 255, 129);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

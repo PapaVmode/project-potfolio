@@ -1,0 +1,24 @@
+.main {
+  height: 100vh;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+}
+
+.photo {
+  width: 50%;
+  height: 65%;
+  background-color: cadetblue;
+}

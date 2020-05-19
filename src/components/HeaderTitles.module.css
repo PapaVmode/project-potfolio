@@ -1,0 +1,25 @@
+.headerTitle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Montserrat' , sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  font-weight: 300;
+   
+}
+
+.title {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  color: wheat;
+}
+
+.line {
+  height: 1px;
+  width: 55px;
+  margin: 30px 0;
+  background-color: #bace09;
+}

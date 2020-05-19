@@ -1,8 +1,9 @@
 .skills {
   height: 100vh;
-  background-color: rgb(153, 253, 106);
+  background-color: #252527;
   display: flex;
   justify-content: center;
+  color: wheat;
 }
 
 .container {
@@ -11,14 +12,18 @@
   height: 80%;
 }
 
-.mySkills {
-  height: 30%;
-  display: flex;
-  justify-content: center;
-}
-
 .containerSkills {
   display: flex;
-  height: 70%;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 388px) {
+  .containerSkills {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .mySkills {
+    height: 30px;
+  }
 }

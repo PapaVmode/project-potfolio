@@ -1,8 +1,9 @@
 .contacts {
   height: 100vh;
-  background-color: rgb(253, 207, 121);
+  background-color: #1f1f20;
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 .container {
@@ -14,20 +15,30 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .container form {
-  width: 45%;
+  width: 500px;
   height: 45%;
+  
 }
 
 .input {
-  width: 100%;
+  width: 99%;
   margin-top: 10px;
+  border: 0px;
 }
 
 .container form textarea {
-  width: 100%;
+  width: 98.5%;
   height: auto;
   margin-top: 15px;
+  border: 0px;
+}
+
+@media screen and (max-width: 650px) {
+  .container form {
+    width: 100%;
+  }
 }

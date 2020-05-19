@@ -1,8 +1,9 @@
 .slogan {
   height: 30vh;
-  background-color: rgb(242, 255, 129);
+  background-color: #252527;
   display: flex;
   justify-content: center;
+  color: antiquewhite;
 }
 
 .container {

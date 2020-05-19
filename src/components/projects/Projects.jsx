@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from './Projects.module.css';
-import Project from './Project';
+import Project from './project/Project';
+import HeaderTitles from '../HeaderTitles';
 
 function Projects() {
   return (
     <div className={styles.projects}>
       <div className={styles.container}>
-        <div className={styles.myProjects}><b>Мои работы</b></div>
+        < HeaderTitles name={'Мои работы'}/>
         <div className={styles.containerProjects}>
           <Project />
           <Project />

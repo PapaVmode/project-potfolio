@@ -8,7 +8,7 @@ function Project() {
         <div className={styles.img}>
           <img src="" alt="" />
           <span>Картинка</span>
-          <input type="button" value="Кнопка"/>
+          <input type="button" value="Кнопка" />
         </div>
         <div className={styles.nameProject}>
           <div>Название проекта</div>

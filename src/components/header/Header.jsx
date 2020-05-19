@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './Header.module.css';
-import NavMenu from './NavMenu';
+import NavMenu from './navMenu/NavMenu';
 
 function Header() {
   return (
     <div className={styles.header}>
       <div className={styles.container}>
-        <NavMenu />
+        < NavMenu />
       </div>
     </div>
 

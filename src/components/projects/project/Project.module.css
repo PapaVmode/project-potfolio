@@ -1,9 +1,10 @@
 .columnProject {
-    height: 100%;
-    width: 40%;
+    height: 400px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 5px;
 }
 
 .contentImg {
@@ -36,4 +37,11 @@
 
 .nameProject div{
   padding: 10px;
+  color: wheat;
+}
+
+@media screen and (max-width: 898px) {
+  .columnProject {
+   height: 250px;
+}
 }
